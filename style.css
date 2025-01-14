@@ -1,16 +1,25 @@
+/* General Styles */
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #000;
 }
 
+/* Header Styles */
 header {
-  background: #000;
-  color: #fff;
-  padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem 2rem;
+  background-color: #000;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header .logo img {
+  width: 120px;
 }
 
 .nav-links {
@@ -26,30 +35,56 @@ header {
 .nav-links a {
   color: #fff;
   text-decoration: none;
-  transition: color 0.3s;
-}
-
-.nav-links a:hover {
-  color: #ff0000;
-}
-
-#hero {
-  text-align: center;
-  padding: 4rem 1rem;
-  background: #f4f4f4;
-}
-
-#hero .cta {
-  background: #e62b1e;
-  color: #fff;
   padding: 0.5rem 1rem;
-  text-decoration: none;
   border-radius: 5px;
 }
 
+.nav-links a.active,
+.nav-links a:hover {
+  background-color: red;
+  color: #fff;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background-image: url('images/hero-image.jpg'); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* Section Styles */
+section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 2.5rem;
+  color: red;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
 footer {
-  background: #222;
-  color: #aaa;
   text-align: center;
   padding: 1rem;
+  background-color: #222;
+  color: #aaa;
 }
