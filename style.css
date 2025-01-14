@@ -9,13 +9,13 @@ body {
 /* Header Styles */
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* Distribute space between logo and nav */
   align-items: center;
   padding: 1rem 2rem;
   background-color: #000;
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 1000; /* Ensure header stays on top */
 }
 
 header .logo img {
@@ -25,11 +25,16 @@ header .logo img {
 
 .nav-links {
   list-style: none;
-  display: flex;
-  gap: 2rem;
+  display: flex; /* Make nav items horizontal */
+  gap: 2rem; 
   margin: 0;
   padding: 0;
 }
+
+.nav-links li { /* Remove bullet points */
+    list-style: none;
+}
+
 
 .nav-links a {
   color: #fff;
@@ -44,7 +49,6 @@ header .logo img {
   color: #fff;
 }
 
-
 /* Hero Section */
 .hero {
   height: 100vh;
@@ -58,6 +62,11 @@ header .logo img {
   text-align: center;
   color: #fff;
 }
+
+.hero .red-text {  /* Make the 'x' red */
+  color: red;
+}
+
 
 
 /* Section Styles */
