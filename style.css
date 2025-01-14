@@ -1,11 +1,3 @@
-/* General Styles */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  color: #fff;
-  background-color: #000;
-}
-
 /* Header Styles */
 header {
   display: flex;
@@ -19,11 +11,13 @@ header {
 }
 
 header .logo {
-  flex: 0; /* Prevent the logo from expanding */
+  flex: 0;
+  margin-right: auto; /* Ensure logo stays on the left */
 }
 
 header .logo img {
   width: 150px; /* Adjust the logo size */
+  display: block; /* Ensures no extra spacing around the image */
 }
 
 .nav-links {
@@ -54,55 +48,4 @@ header .logo img {
 nav {
   margin-left: auto; /* Push navigation to the right */
   display: flex;
-}
-
-/* Hero Section */
-.hero {
-  height: 100vh;
-  background-image: url('hero-image.jpeg'); /* Replace with your background image */
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  position: relative;
-}
-
-.hero-overlay-image img {
-  width: 300px; /* Adjust size as needed */
-  max-width: 100%;
-  border-radius: 10px; /* Optional rounded corners */
-}
-
-.hero-text {
-  font-size: 1.2rem;
-  margin-top: 1rem;
-  color: #fff;
-  text-align: center;
-}
-
-.red-text {
-  color: red;
-  font-weight: bold;
-}
-
-/* Section Styles */
-section {
-  padding: 4rem 2rem;
-  text-align: center;
-}
-
-section h2 {
-  font-size: 2.5rem;
-  color: red;
-  margin-bottom: 1rem;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: #222;
-  color: #aaa;
 }
