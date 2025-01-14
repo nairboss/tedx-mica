@@ -19,13 +19,14 @@ header {
 }
 
 header .logo img {
-  width: 120px;
+  width: 150px; /* Increased logo size */
 }
 
 .nav-links {
   list-style: none;
   display: flex;
   gap: 1rem;
+  margin-left: auto; /* Align navigation links to the right */
 }
 
 .nav-links li {
@@ -55,12 +56,20 @@ header .logo img {
   justify-content: center;
   align-items: center;
   position: relative;
+  flex-direction: column;
 }
 
 .hero-overlay-image img {
   width: 300px; /* Adjust size as needed */
   max-width: 100%;
   border-radius: 10px; /* Optional rounded corners */
+}
+
+.hero-text {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: #fff;
+  text-align: center;
 }
 
 /* Section Styles */
