@@ -9,13 +9,20 @@ body {
 /* Header Styles */
 header {
   display: flex;
-  justify-content: space-between; /* Distribute space between logo and nav */
+  justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
   background-color: #000;
   position: sticky;
   top: 0;
-  z-index: 1000; /* Ensure header stays on top */
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
 }
 
 header .logo img {
@@ -25,16 +32,12 @@ header .logo img {
 
 .nav-links {
   list-style: none;
-  display: flex; /* Make nav items horizontal */
-  gap: 2rem; 
+  display: flex;
+  gap: 2rem;
   margin: 0;
   padding: 0;
+  margin-left: auto; /* Pushes the links to the right */
 }
-
-.nav-links li { /* Remove bullet points */
-    list-style: none;
-}
-
 
 .nav-links a {
   color: #fff;
@@ -63,11 +66,9 @@ header .logo img {
   color: #fff;
 }
 
-.hero .red-text {  /* Make the 'x' red */
+.hero .red-text {
   color: red;
 }
-
-
 
 /* Section Styles */
 section {
