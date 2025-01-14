@@ -72,6 +72,11 @@ header .logo img {
   text-align: center;
 }
 
+.red-text {
+  color: red;
+  font-weight: bold;
+}
+
 /* Section Styles */
 section {
   padding: 4rem 2rem;
