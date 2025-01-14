@@ -25,9 +25,9 @@ header .logo img {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 1rem;
+  gap: 2rem; /* Increased spacing between nav items */
   margin: 0; /* Ensure no default list margin */
-  margin-left: auto; /* Push navigation links to the right */
+  padding: 0; /* Ensure no default list padding */
 }
 
 .nav-links li {
@@ -45,6 +45,10 @@ header .logo img {
 .nav-links a:hover {
   background-color: red;
   color: #fff;
+}
+
+nav {
+  margin-left: auto; /* Push the entire nav element to the right */
 }
 
 /* Hero Section */
