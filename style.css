@@ -18,16 +18,20 @@ header {
   z-index: 1000;
 }
 
+header .logo {
+  flex: 0; /* Prevent the logo from expanding */
+}
+
 header .logo img {
-  width: 150px; /* Increased logo size */
+  width: 150px; /* Adjust the logo size */
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 2rem; /* Increased spacing between nav items */
-  margin: 0; /* Ensure no default list margin */
-  padding: 0; /* Ensure no default list padding */
+  gap: 2rem; /* Space between navigation links */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
 }
 
 .nav-links li {
@@ -48,7 +52,8 @@ header .logo img {
 }
 
 nav {
-  margin-left: auto; /* Push the entire nav element to the right */
+  margin-left: auto; /* Push navigation to the right */
+  display: flex;
 }
 
 /* Hero Section */
@@ -60,8 +65,8 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
   flex-direction: column;
+  position: relative;
 }
 
 .hero-overlay-image img {
