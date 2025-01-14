@@ -11,7 +11,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem; /* Reduced padding */
   background-color: #000;
   position: sticky;
   top: 0;
@@ -36,7 +36,7 @@ header .logo img {
   gap: 2rem;
   margin: 0;
   padding: 0;
-  margin-left: auto; /* Pushes the links to the right */
+  margin-left: auto;
 }
 
 .nav-links a {
