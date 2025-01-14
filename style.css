@@ -1,3 +1,11 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #000;
+}
+
 /* Header Styles */
 header {
   display: flex;
@@ -12,20 +20,20 @@ header {
 
 header .logo {
   flex: 0;
-  margin-right: auto; /* Ensure logo stays on the left */
+  margin-right: auto; /* Keeps logo aligned to the left */
 }
 
 header .logo img {
-  width: 150px; /* Adjust the logo size */
-  display: block; /* Ensures no extra spacing around the image */
+  width: 150px; /* Adjusted size for visibility */
+  display: block; /* Avoids unnecessary spacing around the logo */
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 2rem; /* Space between navigation links */
-  margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
+  gap: 2rem; /* Space between each navigation link */
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
 }
 
 .nav-links li {
@@ -46,6 +54,54 @@ header .logo img {
 }
 
 nav {
-  margin-left: auto; /* Push navigation to the right */
+  margin-left: auto; /* Pushes navigation menu to the right */
   display: flex;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background-image: url('hero-image.jpeg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.hero p .red {
+  color: red;
+}
+
+/* Section Styles */
+section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 2.5rem;
+  color: red;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #222;
+  color: #aaa;
 }
