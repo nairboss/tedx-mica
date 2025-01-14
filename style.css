@@ -48,25 +48,19 @@ header .logo img {
 /* Hero Section */
 .hero {
   height: 100vh;
-  background-image: url('hero-image.jpeg');
+  background-image: url('hero-image.jpeg'); /* Replace with your background image */
   background-size: cover;
   background-position: center;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  color: #fff;
+  position: relative;
 }
 
-.hero h1 {
-  font-size: 4rem;
-  margin: 0;
-}
-
-.hero p {
-  font-size: 1.5rem;
-  margin-top: 1rem;
+.hero-overlay-image img {
+  width: 300px; /* Adjust size as needed */
+  max-width: 100%;
+  border-radius: 10px; /* Optional rounded corners */
 }
 
 /* Section Styles */
