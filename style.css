@@ -9,7 +9,7 @@ body {
 /* Header Styles */
 header {
   display: flex;
-  justify-content: space-between; /* Space between logo and nav menu */
+  justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
   background-color: #000;
@@ -18,26 +18,17 @@ header {
   z-index: 1000;
 }
 
-header .logo {
-  flex: 0;
-  margin-right: auto; /* Keeps logo aligned to the left */
-}
-
 header .logo img {
-  width: 150px; /* Adjusted size for visibility */
-  display: block; /* Avoids unnecessary spacing around the logo */
+  width: 150px;
+  display: block;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 2rem; /* Space between each navigation link */
-  margin: 0; /* Remove any default margin */
-  padding: 0; /* Remove any default padding */
-}
-
-.nav-links li {
+  gap: 2rem;
   margin: 0;
+  padding: 0;
 }
 
 .nav-links a {
@@ -53,10 +44,6 @@ header .logo img {
   color: #fff;
 }
 
-nav {
-  margin-left: auto; /* Pushes navigation menu to the right */
-  display: flex;
-}
 
 /* Hero Section */
 .hero {
@@ -72,19 +59,6 @@ nav {
   color: #fff;
 }
 
-.hero h1 {
-  font-size: 4rem;
-  margin: 0;
-}
-
-.hero p {
-  font-size: 1.5rem;
-  margin-top: 1rem;
-}
-
-.hero p .red {
-  color: red;
-}
 
 /* Section Styles */
 section {
@@ -96,12 +70,4 @@ section h2 {
   font-size: 2.5rem;
   color: red;
   margin-bottom: 1rem;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: #222;
-  color: #aaa;
 }
