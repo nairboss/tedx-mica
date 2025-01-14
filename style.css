@@ -48,7 +48,7 @@ header .logo img {
 /* Hero Section */
 .hero {
   height: 100vh;
-  background-image: url('images/hero-image.jpg'); /* Replace with your image */
+  background-image: url('hero-image.jpeg');
   background-size: cover;
   background-position: center;
   display: flex;
