@@ -9,7 +9,7 @@ body {
 /* Header Styles */
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* Space between logo and nav menu */
   align-items: center;
   padding: 1rem 2rem;
   background-color: #000;
@@ -26,7 +26,8 @@ header .logo img {
   list-style: none;
   display: flex;
   gap: 1rem;
-  margin-left: auto; /* Align navigation links to the right */
+  margin: 0; /* Ensure no default list margin */
+  margin-left: auto; /* Push navigation links to the right */
 }
 
 .nav-links li {
