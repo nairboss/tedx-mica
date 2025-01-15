@@ -71,13 +71,13 @@ header .logo img {
 }
 
 
-/* About MICA and TEDx Theme Sections (shared styles) */
-#about-mica, #tedx-theme {  /* Apply these styles to both sections */
+/* About MICA Section */
+#about-mica {
   padding: 4rem 2rem;
   text-align: center;
 }
 
-.mica-logos, .tedx-logos {   /* Apply these styles to both logo containers */
+.mica-logos {
   display: block;
   margin-bottom: 2rem;
   width: 900px;
@@ -85,14 +85,14 @@ header .logo img {
   margin-right: auto;
 }
 
-.mica-logos img, .tedx-logos img {   /* Apply these styles to all images in both logo containers */
+.mica-logos img {
   display: block;
   margin: 0 auto;
   max-width: 100%;
   height: auto;
 }
 
-.mica-text, .tedx-text {  /* Apply these styles to both text containers */
+.mica-text {
   text-align: justify;
   max-width: 900px;
   margin: 0 auto;
@@ -101,13 +101,54 @@ header .logo img {
   font-family: 'Georgia', serif;
   color: white;
   padding: 20px;
-  border: 1px solid transparent; /* Invisible border for layout */
+  border: 1px solid transparent; 
   border-radius: 5px;
 }
 
-.mica-text p, .tedx-text p {
+.mica-text p {
   margin-bottom: 1rem;
 }
+
+
+
+/* TEDx Theme Section Styles */
+#tedx-theme {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.tedx-logos {
+  display: block;
+  margin-bottom: 2rem;
+  width: 900px; /* Same width as text area */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tedx-logos img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.tedx-text {
+  text-align: justify;
+  max-width: 900px; /* Matching width */
+  margin: 0 auto;
+  line-height: 1.8;
+  font-size: 1.1rem;
+  font-family: 'Georgia', serif;
+  color: white;
+  padding: 20px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.tedx-text p {
+  margin-bottom: 1rem;
+}
+
 
 
 /* Section Styles (for speakers, sponsors, etc.) */
