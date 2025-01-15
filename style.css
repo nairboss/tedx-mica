@@ -70,7 +70,6 @@ header .logo img {
   color: red;
 }
 
-
 /* About MICA Section */
 #about-mica {
   padding: 4rem 2rem;
@@ -108,8 +107,6 @@ header .logo img {
 .mica-text p {
   margin-bottom: 1rem;
 }
-
-
 
 /* TEDx Theme Section Styles */
 #tedx-theme {
@@ -149,7 +146,6 @@ header .logo img {
   margin-bottom: 1rem;
 }
 
-
 /* Section Styles (for speakers, sponsors, etc.) */
 section {
   padding: 4rem 2rem;
@@ -162,7 +158,6 @@ section h2 {
   color: red;
   margin-bottom: 1rem;
 }
-
 
 /* Footer Styles */
 footer {
@@ -184,10 +179,10 @@ footer {
 
 .social-icons {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .social-icons img {
-  width: 32px;
-  height: 32px;
+  width: 48px;
+  height: 48px;
 }
