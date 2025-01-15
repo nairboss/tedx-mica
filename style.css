@@ -11,7 +11,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 2rem; 
+  padding: 0.5rem 2rem;
   background-color: #000;
   position: sticky;
   top: 0;
@@ -74,7 +74,7 @@ header .logo img {
 /* About MICA Section */
 #about-mica {
   padding: 4rem 2rem;
-  text-align: center;
+  text-align: center; /* For centering the logos initially */
 }
 
 .mica-logos {
@@ -85,16 +85,28 @@ header .logo img {
 }
 
 .mica-logos img {
-  max-width: 200px;
+  max-width: 200px; 
   height: auto;
 }
 
+.mica-logos img[src="mica-image.png"] {
+  max-width: 300px; 
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
 .mica-text {
-  text-align: left;
-  max-width: 800px;
-  margin: 0 auto;
-  line-height: 1.6;
-  color: white; /* Text color in the about section */
+  text-align: justify;
+  max-width: 900px;
+  margin: 0 auto; /* Center the text container */
+  line-height: 1.8;
+  font-size: 1.1rem;
+  font-family: 'Georgia', serif; /* Or any other suitable font */
+  color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .mica-text p {
@@ -102,13 +114,13 @@ header .logo img {
 }
 
 
+
 /* Section Styles (for speakers, sponsors, etc.) */
 section {
   padding: 4rem 2rem;
-  text-align: center;  /* General section text alignment */
-  color: white;      /* General section text color */
+  text-align: center;
+  color: white;
 }
-
 
 section h2 {
   font-size: 2.5rem;
