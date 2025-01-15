@@ -74,39 +74,40 @@ header .logo img {
 /* About MICA Section */
 #about-mica {
   padding: 4rem 2rem;
-  text-align: center; /* For centering the logos initially */
+  text-align: center; 
 }
 
 .mica-logos {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
+  display: block; 
   margin-bottom: 2rem;
+  width: 900px;  
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mica-logos img {
-  max-width: 200px; 
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
   height: auto;
 }
 
 .mica-logos img[src="mica-image.png"] {
-  max-width: 300px; 
-  border: 1px solid #ccc;
-  padding: 10px;
-  border-radius: 5px;
+  border: none;
+  padding: 0; 
 }
 
 .mica-text {
   text-align: justify;
-  max-width: 900px;
-  margin: 0 auto; /* Center the text container */
+  max-width: 900px; 
+  margin: 0 auto; 
   line-height: 1.8;
   font-size: 1.1rem;
-  font-family: 'Georgia', serif; /* Or any other suitable font */
+  font-family: 'Georgia', serif; 
   color: white;
   padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  border: 1px solid transparent;
+  border-radius: 5px; 
 }
 
 .mica-text p {
