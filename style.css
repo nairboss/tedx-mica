@@ -148,63 +148,59 @@ header .logo img {
 
 /* Speakers Page Styles */
 #speakers-section {
-    padding: 4rem 2rem;
-    text-align: center; 
-    color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+  color: white;
 }
 
 .speakers-title {
-    font-size: 3rem; 
-    color: red;
-    margin-bottom: 2rem;
+  font-size: 3rem;
+  color: red;
+  margin-bottom: 2rem;
 }
 
 .speaker-info {
-    display: flex;
-    align-items: flex-start;
-    max-width: 900px;
-    margin: 0 auto;
-    gap: 2rem;
-    text-align: left;
-    padding-bottom: 2rem; /* Add space between speakers */
+  display: flex;
+  align-items: flex-start;
+  max-width: 900px;
+  margin: 0 auto;
+  gap: 2rem;
+  text-align: left;
+  padding-bottom: 2rem;
 }
-
 
 .speaker-image {
-    max-width: 300px;
-    height: auto;
-    border-radius: 10px;
-    margin-right: 20px;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
 }
 
-.right-align {    /* Styles for right-aligned images */
-  order: 1;        /* Places image to the right */
-  margin-left: 20px;  /* Add left margin when right-aligned */
-  margin-right: 0;
+.right-align { /* Apply to the parent container */
+  flex-direction: row-reverse;
 }
 
-.speaker-details { /* added to wrap text content */
-    flex: 1;  /* Text content takes up remaining space */
+.speaker-details {
+  flex: 1;
 }
 
 .speaker-name {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-    color: white;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: white;
 }
 
 .speaker-designation {
-    color: red;
-    font-style: italic;
-    margin-bottom: 1rem;
-    display: block; 
+  color: red;
+  font-style: italic;
+  margin-bottom: 1rem;
+  display: block;
 }
 
 .speaker-bio {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    font-family: 'Georgia', serif;
-    color: white;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  font-family: 'Georgia', serif;
+  color: white;
 }
 
 
