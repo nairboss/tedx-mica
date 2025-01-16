@@ -226,27 +226,27 @@ header .logo img {
     margin-bottom: 8rem;
 }
 
-.sponsor {
+.sponsor { /* Apply flexbox to center content within the sponsor div */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
+    justify-content: center; /* Horizontally center */
+    align-items: center;    /* Vertically center */
+    flex-direction: column;  /* Stack image and text vertically */
+    text-align: center;      /* Center text */
     margin-bottom: 2rem;
-    max-width: 200px;
+    max-width: 200px;  /* Or whatever width you want for regular sponsor logos */
 }
 
 .sponsor img {
-    max-width: 100%;
+    max-width: 100%;  /* Ensure image fits container */
     height: auto;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem; 
 }
 
-.sponsor img[src="indianoil.png"] {
-    max-width: 250px;
+
+/* Indian Oil logo specific styles */
+.sponsor img[src="indianoil.png"] {  
+    max-width: 400px; /* Or your desired size for the larger logo */
     height: auto;
-    display: block;
-    margin: 0 auto;
 }
 
 
