@@ -403,6 +403,45 @@ footer {
     .mica-logos img, .tedx-logos img {max-width: 100%; margin: 1rem auto;}
     .mica-text, .tedx-text {font-size: 1rem; padding: 1rem;}
 
+    /* Home Page Specific Styles for Mobile */
+    .mica-logos img, .tedx-logos img {
+      max-width: 100%;    /* Ensure images scale down */
+      height: auto;       /* Maintain aspect ratio */
+      margin: 1rem auto;  /* Center the logos */
+      display: block;      /* So they stack vertically */ /* Correct this rule */
+
+    }
+    .mica-logos, .tedx-logos {
+        width: auto;  /* don't restrict container width */ /* Correct this rule */
+    }
+
+    /* Footer Styles for Mobile */
+    .footer-content {
+        flex-direction: column; /* Stack logo and icons vertically */
+        align-items: center; /* Center content horizontally */
+    }
+
+    .bottom-left-logo {
+        max-width: 150px; /* Adjust size as needed for mobile */
+        margin-bottom: 1rem; /* Space below logo */
+    }
+
+    .social-icons {
+        display: flex;      /* Make social icons horizontal */
+        justify-content: center;  /* Center icons horizontally */
+
+        flex-wrap: wrap;   /* Allow wrapping if needed */
+        gap: 1.5rem;
+        width: 100%;
+
+    }
+
+
+    .social-icons img {
+        width: 40px;
+        height: 40px;
+    }
+
 
 
     /* Speakers Section */
