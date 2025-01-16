@@ -271,15 +271,21 @@ header .logo img {
 .team-title {
     font-size: 3rem;  /* Large title font size */
     color: red;        /* Red title color */
+    margin-bottom: 0; /* Remove margin below title */
 }
 
 .team-image {
-    max-width: 80%; /* Reduced image size (adjust percentage as needed) */
+    max-width: 80%;
     height: auto;
-    border: 1px solid transparent; /* Invisible border */
-    padding: 20px;                  /* Add padding */
-    border-radius: 2px;            /* Optional: Rounded corners */
-    margin: 0 auto;                 /* center image */
+    border: 1px solid transparent;
+    padding: 20px; /* If you still want padding around the images */
+    border-radius: 2px;
+    margin: 0 auto; 
+    display: block;   /* Make images block elements to control vertical spacing */
+}
+
+#team-section .team-image + .team-image {
+    margin-top: -4px; /* Adjust this small negative margin to visually remove the gap between images */
 }
 
 /* Contact Page Styles */
