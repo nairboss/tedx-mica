@@ -91,13 +91,14 @@ header .logo img {
   height: auto;
 }
 
-.mica-text {
+.mica-text {  /* Updated font styles */
   text-align: justify;
   max-width: 900px;
   margin: 0 auto;
-  line-height: 1.8;
-  font-size: 1.1rem;
-  font-family: 'Georgia', serif;
+  line-height: 1.7;       /* Adjusted line-height */
+  font-size: 1.2rem;       /* Adjusted font-size */
+  font-family: "Times New Roman", serif; /* Formal font */
+  font-weight: 400;       /* Slightly bolder */
   color: white;
   padding: 20px;
   border: 1px solid transparent;
@@ -129,13 +130,14 @@ header .logo img {
   height: auto;
 }
 
-.tedx-text {
+.tedx-text {  /* Updated font styles */
   text-align: justify;
   max-width: 900px;
   margin: 0 auto;
-  line-height: 1.8;
-  font-size: 1.1rem;
-  font-family: 'Georgia', serif;
+  line-height: 1.7;       /* Adjusted line-height */
+  font-size: 1.2rem;       /* Adjusted font-size */
+  font-family: "Times New Roman", serif; /* Formal font */
+  font-weight: 400;       /* Slightly bolder */
   color: white;
   padding: 20px;
   border: 1px solid transparent;
