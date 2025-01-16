@@ -226,6 +226,39 @@ header .logo img {
 
 }
 
+/* Contact Page Styles */
+#contact-section {
+    padding: 4rem 2rem;
+    text-align: center;
+    color: white;
+}
+
+.contact-title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.contact-title .red-text { /* Make "Us" red */
+    color: red;
+}
+
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;  /* Center the content horizontally */
+    margin-bottom: 1rem;      /* Space between contact items */
+    gap: 10px;               /* space between icon and text */
+
+}
+
+.contact-icon {
+    width: 24px;  /* Adjust icon size as needed */
+    height: 24px;
+    margin-right: 10px; /* Add some space between the image and text */
+
+}
+
 
 /* Section Styles (for speakers, sponsors, etc.) */
 section {
