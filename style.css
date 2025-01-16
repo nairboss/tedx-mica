@@ -224,7 +224,7 @@ header .logo img {
     align-items: center;    
     margin: 0 auto;
     width: 90%;
-    margin-bottom: 4rem; /* Increased margin below each row */
+    margin-bottom: 8rem; /* Increased margin below each row */
 }
 
 .sponsor {
@@ -241,7 +241,7 @@ header .logo img {
 }
 
 .sponsor img[src="indianoil.png"] {  /* Increased size for Indian Oil logo */
-  max-width: 300px;  /* Adjust as needed */
+  max-width: 600px;  /* Adjust as needed */
   height: auto;
 }
 
