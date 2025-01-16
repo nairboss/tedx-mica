@@ -379,19 +379,20 @@ footer {
 
     /* Header */
     header {
-        flex-direction: column; /* Stack logo and nav vertically */
-        align-items: flex-start; /* Align logo to the left */
-        padding: 1rem; /* Reduced padding */
-    }
+    flex-direction: column; /* Stack logo and nav */
+    align-items: center;    /* Center header content horizontally */ /* Center the logo */
+    padding: 1rem;
+  }
 
-
-    .nav-links {
-        flex-direction: column; /* Stack nav links vertically */
-        gap: 1rem;           /* Reduce gap between links */
-        width: 100%;        /* Make nav links full width */
-        margin-top: 1rem;    /* Space between logo and nav */
-    }
-
+  .nav-links {
+    display: flex;           /* Make nav links horizontal */ /*Updated*/
+    flex-wrap: wrap;          /* Allow wrapping if necessary */  /*Updated*/
+    justify-content: center; /* Center the links horizontally */ /*Updated*/
+    gap: 1rem;                /* Space between links */
+    width: 100%;             /* Occupy full width */
+    margin-top: 1rem;         /* Space between logo and nav */
+  }
+    
     /* Hero Section */
     .hero { padding: 2rem;}
     .hero img {width: 100%; height: auto;}
