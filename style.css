@@ -240,10 +240,11 @@ header .logo img {
     margin-bottom: 1rem;
 }
 
-.sponsor img[src="indianoil.png"] {  /* Increased size for Indian Oil logo */
-  max-width: 400px;  /* Adjust as needed */ 
-  align-items: center;
-  height: auto;
+.sponsor img[src="indianoil.png"] {
+    max-width: 400px; 
+    height: auto;
+    display: block; /* Makes the image a block element so it can be centered using margin */
+    margin: 0 auto; /* Center the image horizontally within its container */
 }
 
 
