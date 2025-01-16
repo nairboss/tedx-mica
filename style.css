@@ -206,37 +206,49 @@ header .logo img {
 /* Sponsors Page Styles */
 #sponsors-section {
     padding: 4rem 2rem;
-    text-align: center;  /* Center the content */
-    color: white;       /* Text color */
+    text-align: center;
+    color: white;
 }
 
 .sponsors-title {
-    font-size: 3rem;  /* Large title size */
-    color: red;       /* Title color */
-    margin-bottom: 2rem; /* Spacing below title */
+    font-size: 3rem;
+    color: red;
+    margin-bottom: 4rem; /* Increased margin below title */
 }
 
 .sponsor-logos {
-    display: flex;           /* Arrange logos horizontally */
-    justify-content: center; /* Center the logos */
-    gap: 2rem;             /* Spacing between sponsor logos */
+    display: flex;
+    justify-content: center; /* Center the logos horizontally */
+    gap: 4rem;             /* Increased space between logos */
+    flex-wrap: wrap;       /* Allow wrapping if needed */ /* Added this */
+    align-items: center;    /* added this to center vertically center */
+    margin: 0 auto;
+    width: 90%;
 }
 
-
 .sponsor {
-    text-align: center;  /* Center text within each sponsor */
+    text-align: center;
+    margin-bottom: 2rem; /* Space below each sponsor */
+    max-width: 200px;
 }
 
 .sponsor img {
-    max-width: 200px;   /* Adjust logo size as needed */
-    height: auto;       /* Maintain aspect ratio */
-    margin-bottom: 1rem;
+    max-width: 100%;  /* Ensure logo fits in its container */
+    height: auto;
+    margin-bottom: 1rem; /* Space between logo and text */
 }
 
+
 .sponsor-name {
-    color: red;         /* Red sponsor name */
-    font-weight: bold; /* Make sponsor name bold */
-    margin-bottom: 0.5rem;
+    color: red;
+    font-weight: bold;
+    margin-bottom: 0.5rem; /* Reduced margin below sponsor name */
+}
+
+
+.sponsor-description {  /* Increased font size */
+    font-size: 1.2rem; /* Larger description font-size */
+
 }
 
 /* Team Page Styles */
