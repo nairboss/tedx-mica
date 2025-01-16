@@ -244,24 +244,22 @@ header .logo img {
 }
 
 .contact-info {
-    display: flex;
-    align-items: center; /* Vertically align icon and text */
-    flex-direction: column; /* Align icons and text vertically */
-    margin-bottom: 2rem; /* Increased spacing between contact blocks */
-    width: fit-content; /* Allows centering using margin: 0 auto; */
-    margin: 0 auto;      /* Center horizontally */
-
+    display: block; /* Use block display for vertical arrangement */
+    text-align: center; /* Center the content horizontally */
+    margin-bottom: 2rem; /* Increased space between contact items */
 }
 
 .contact-icon {
-    width: 48px; /* Further increased icon size */
-    height: 48px;/* Further increased icon size */
-    margin-bottom: 0.5rem; /* Space below each icon */
+    width: 48px;
+    height: 48px;
+    margin-bottom: 0.5rem; /* Space between icon and text */
+    display: block; /* Ensures icon takes full width and centers */
+    margin-left: auto;
+    margin-right: auto;
 }
 
-p { /* To prevent default paragraph margins from misaligning text */
-  margin: 0;
-  text-align: center; /* Center the text within each contact-info block */
+.contact-info p {
+    margin-bottom: 1rem; /* Space below each paragraph of text */
 }
 
 
