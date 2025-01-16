@@ -229,14 +229,13 @@ header .logo img {
 /* Contact Page Styles */
 #contact-section {
   padding: 4rem 2rem;
-  text-align: left;           /* Align text to the left */
-  color: white;
+  color: white;  /* Text color */
 }
 
 .contact-title {
   font-size: 3rem;
   margin-bottom: 2rem;
-  text-align: center;       /* Center the title */
+  text-align: center;
 }
 
 .contact-title .red-text {
@@ -245,11 +244,11 @@ header .logo img {
 
 .contact-info {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 1rem;
-  gap: 1rem;
-  margin-left: 32%;        /* Adjust to fine-tune centering */
+  align-items: center;  /* Vertically center icon and text */
+  gap: 1rem;             /* Space between icon and text */
+  margin-bottom: 1rem;   /* Space between contact items */
+  width: fit-content;   /* Important for centering */
+  margin: 0 auto;       /* Center the contact info horizontally */
 }
 
 .contact-icon {
@@ -257,10 +256,10 @@ header .logo img {
   height: 32px;
 }
 
-
-p { /* To prevent default paragraph margins from misaligning text */
-  margin: 0;              
+p {  /* Reset default paragraph margins for better control */
+  margin: 0; 
 }
+
 
 /* Section Styles (for speakers, sponsors, etc.) */
 section {
