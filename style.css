@@ -244,7 +244,7 @@ header .logo img {
 }
 
 .sponsor img[src="indianoil.png"] {  
-    max-width: 400px;  
+    max-width: 250px;  
     height: auto;  /* Remove other styles that might be interfering */
 }
 
