@@ -241,7 +241,7 @@ header .logo img {
 }
 
 .sponsor img[src="indianoil.png"] {  /* Increased size for Indian Oil logo */
-  max-width: 400px;  /* Adjust as needed */
+  max-width: 400px;  /* Adjust as needed */ 
   align-items: center;
   height: auto;
 }
