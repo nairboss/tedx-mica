@@ -213,29 +213,36 @@ header .logo img {
 .sponsors-title {
     font-size: 3rem;
     color: red;
-    margin-bottom: 4rem; /* Increased margin below title */
+    margin-bottom: 4rem;
 }
 
 .sponsor-logos {
     display: flex;
-    justify-content: center; /* Center the logos horizontally */
-    gap: 4rem;             /* Increased space between logos */
-    flex-wrap: wrap;       /* Allow wrapping if needed */ /* Added this */
-    align-items: center;    /* added this to center vertically center */
+    justify-content: center; 
+    gap: 4rem;             
+    flex-wrap: wrap;       
+    align-items: center;    
     margin: 0 auto;
     width: 90%;
+    margin-bottom: 4rem; /* Increased margin below each row */
 }
 
 .sponsor {
     text-align: center;
-    margin-bottom: 2rem; /* Space below each sponsor */
-    max-width: 200px;
+    margin-bottom: 2rem;
+    max-width: 200px; /* Added to ensure consistent size for normal logos */
+
 }
 
 .sponsor img {
-    max-width: 100%;  /* Ensure logo fits in its container */
+    max-width: 100%; 
     height: auto;
-    margin-bottom: 1rem; /* Space between logo and text */
+    margin-bottom: 1rem;
+}
+
+.sponsor img[src="indianoil.png"] {  /* Increased size for Indian Oil logo */
+  max-width: 300px;  /* Adjust as needed */
+  height: auto;
 }
 
 
@@ -243,15 +250,12 @@ header .logo img {
     color: red;
     font-weight: bold;
     margin-bottom: 0.5rem;
-    font-size: 1.5rem; /* Increased font size for sponsor names */
+    font-size: 1.5rem; 
 }
 
-
-.sponsor-description {  /* Increased font size */
-    font-size: 1.2rem; /* Larger description font-size */
-
+.sponsor-description {
+    font-size: 1.2rem;
 }
-
 /* Team Page Styles */
 #team-section {
     padding: 4rem 2rem;
