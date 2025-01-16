@@ -230,6 +230,7 @@ header .logo img {
 #contact-section {
   padding: 4rem 2rem;
   color: white;  /* Text color */
+  text-align: center; /* Center all content in the section */
 }
 
 .contact-title {
@@ -243,21 +244,24 @@ header .logo img {
 }
 
 .contact-info {
-  display: flex;
-  align-items: center;  /* Vertically center icon and text */
-  gap: 1rem;             /* Space between icon and text */
-  margin-bottom: 1rem;   /* Space between contact items */
-  width: fit-content;   /* Important for centering */
-  margin: 0 auto;       /* Center the contact info horizontally */
+    display: flex;
+    align-items: center; /* Vertically align icon and text */
+    flex-direction: column; /* Align icons and text vertically */
+    margin-bottom: 2rem; /* Increased spacing between contact blocks */
+    width: fit-content; /* Allows centering using margin: 0 auto; */
+    margin: 0 auto;      /* Center horizontally */
+
 }
 
 .contact-icon {
-  width: 32px;
-  height: 32px;
+    width: 48px; /* Further increased icon size */
+    height: 48px;/* Further increased icon size */
+    margin-bottom: 0.5rem; /* Space below each icon */
 }
 
-p {  /* Reset default paragraph margins for better control */
-  margin: 0; 
+p { /* To prevent default paragraph margins from misaligning text */
+  margin: 0;
+  text-align: center; /* Center the text within each contact-info block */
 }
 
 
