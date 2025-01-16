@@ -177,6 +177,12 @@ header .logo img {
     margin-right: 20px;
 }
 
+.right-align {    /* Styles for right-aligned images */
+  order: 1;        /* Places image to the right */
+  margin-left: 20px;  /* Add left margin when right-aligned */
+  margin-right: 0;
+}
+
 .speaker-details { /* added to wrap text content */
     flex: 1;  /* Text content takes up remaining space */
 }
