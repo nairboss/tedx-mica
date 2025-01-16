@@ -281,7 +281,7 @@ header .logo img {
     padding: 20px;                  /* Add padding */
     border-radius: 10px;            /* Optional: Rounded corners */
     margin: 0 auto;                 /* center image */
-
+    margin-bottom: 0.5rem;
 }
 
 /* Contact Page Styles */
