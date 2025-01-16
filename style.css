@@ -161,6 +161,7 @@ header .logo img {
 
 .speaker-info {
   display: flex;
+  flex-wrap: nowrap;
   align-items: flex-start;
   max-width: 900px;
   margin: 0 auto;
