@@ -227,24 +227,25 @@ header .logo img {
     margin-bottom: 8rem; /* Increased margin below each row */
 }
 
-.sponsor {
-    text-align: center;
-    margin-bottom: 2rem;
-    max-width: 200px; /* Added to ensure consistent size for normal logos */
-
+.sponsor { /* Apply flexbox to the sponsor container */
+    display: flex;
+    justify-content: center; /* Horizontally center content */
+    align-items: center;    /* Vertically center content */
+    flex-direction: column;  /* Stack image and text vertically */
+    text-align: center;     /* Center text */
+    margin-bottom: 2rem; 
+    max-width: 200px;
 }
 
-.sponsor img {
-    max-width: 100%; 
+.sponsor img {    /* Remove conflicting margin styles here */
+    max-width: 100%;
     height: auto;
     margin-bottom: 1rem;
 }
 
-.sponsor img[src="indianoil.png"] {
-    max-width: 400px; 
-    height: auto;
-    display: block; /* Makes the image a block element so it can be centered using margin */
-    margin: 0 auto; /* Center the image horizontally within its container */
+.sponsor img[src="indianoil.png"] {  
+    max-width: 400px;  
+    height: auto;  /* Remove other styles that might be interfering */
 }
 
 
