@@ -217,9 +217,13 @@ header .logo img {
 }
 
 .team-image {
-    max-width: 100%;   /* Ensure image fits container */
-    height: auto;      /* Maintain aspect ratio */
-    border-radius: 10px; /* Optional: Rounded corners */
+    max-width: 80%; /* Reduced image size (adjust percentage as needed) */
+    height: auto;
+    border: 1px solid transparent; /* Invisible border */
+    padding: 20px;                  /* Add padding */
+    border-radius: 10px;            /* Optional: Rounded corners */
+    margin: 0 auto;                 /* center image */
+
 }
 
 
