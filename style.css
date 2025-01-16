@@ -271,7 +271,7 @@ header .logo img {
 .team-title {
     font-size: 3rem;  /* Large title font size */
     color: red;        /* Red title color */
-    margin-bottom: 0.5rem; /* Space below the title */
+    margin-bottom: 0rem; /* Space below the title */
 }
 
 .team-image {
@@ -279,9 +279,9 @@ header .logo img {
     height: auto;
     border: 1px solid transparent; /* Invisible border */
     padding: 20px;                  /* Add padding */
-    border-radius: 10px;            /* Optional: Rounded corners */
+    border-radius: 2px;            /* Optional: Rounded corners */
     margin: 0 auto;                 /* center image */
-    margin-bottom: 0.5rem;
+    margin-bottom: 0rem;
 }
 
 /* Contact Page Styles */
