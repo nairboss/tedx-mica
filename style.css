@@ -203,6 +203,25 @@ header .logo img {
   color: white;
 }
 
+/* Team Page Styles */
+#team-section {
+    padding: 4rem 2rem;
+    text-align: center; /* Center the title and image */
+    color: white;      /* Set text color to white */
+}
+
+.team-title {
+    font-size: 3rem;  /* Large title font size */
+    color: red;        /* Red title color */
+    margin-bottom: 2rem; /* Space below the title */
+}
+
+.team-image {
+    max-width: 100%;   /* Ensure image fits container */
+    height: auto;      /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Rounded corners */
+}
+
 
 /* Section Styles (for speakers, sponsors, etc.) */
 section {
