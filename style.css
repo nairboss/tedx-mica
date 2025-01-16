@@ -203,6 +203,42 @@ header .logo img {
   color: white;
 }
 
+/* Sponsors Page Styles */
+#sponsors-section {
+    padding: 4rem 2rem;
+    text-align: center;  /* Center the content */
+    color: white;       /* Text color */
+}
+
+.sponsors-title {
+    font-size: 3rem;  /* Large title size */
+    color: red;       /* Title color */
+    margin-bottom: 2rem; /* Spacing below title */
+}
+
+.sponsor-logos {
+    display: flex;           /* Arrange logos horizontally */
+    justify-content: center; /* Center the logos */
+    gap: 2rem;             /* Spacing between sponsor logos */
+}
+
+
+.sponsor {
+    text-align: center;  /* Center text within each sponsor */
+}
+
+.sponsor img {
+    max-width: 200px;   /* Adjust logo size as needed */
+    height: auto;       /* Maintain aspect ratio */
+    margin-bottom: 1rem;
+}
+
+.sponsor-name {
+    color: red;         /* Red sponsor name */
+    font-weight: bold; /* Make sponsor name bold */
+    margin-bottom: 0.5rem;
+}
+
 /* Team Page Styles */
 #team-section {
     padding: 4rem 2rem;
