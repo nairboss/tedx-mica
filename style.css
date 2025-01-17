@@ -385,13 +385,14 @@ footer {
   }
 
   .nav-links {
-    display: flex;           /* Make nav links horizontal */ /*Updated*/
-    flex-wrap: wrap;          /* Allow wrapping if necessary */  /*Updated*/
-    justify-content: center; /* Center the links horizontally */ /*Updated*/
-    gap: 1rem;                /* Space between links */
-    width: 100%;             /* Occupy full width */
-    margin-top: 1rem;         /* Space between logo and nav */
+    display: flex;         /* Keep display: flex */
+    flex-direction: column; /* Force vertical stacking */
+    align-items: center; /* centers horizontally */ /* Added */
+    gap: 1rem;             /* Space between links */
+    width: 100%;
+    margin-top: 1rem;
   }
+
     
     /* Hero Section */
     .hero { padding: 2rem;}
